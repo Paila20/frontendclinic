@@ -130,11 +130,11 @@ export default function Page() {
             </li>
             <li>
             
-              <a href="#doctors" className="hover:text-blue-200">
+             
               <Link href="/doctors">
                 Doctors
                 </Link>
-              </a>
+              
              
             </li>
             <li>
