@@ -102,7 +102,7 @@
 
 
 // import Image from "next/image";
-
+import Link from "next/link";
 export default function Page() {
   return (
     <div className="min-h-screen flex flex-col">
@@ -129,9 +129,13 @@ export default function Page() {
               </a>
             </li>
             <li>
+            
               <a href="#doctors" className="hover:text-blue-200">
+              <Link href="/doctors">
                 Doctors
+                </Link>
               </a>
+             
             </li>
             <li>
               <a href="#appointments" className="hover:text-blue-200">
